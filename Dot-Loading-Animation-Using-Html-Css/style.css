@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #191940;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 100vh;
+    position: relative;
+}
+
+.balls{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.ball{
+    position: absolute;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background: peru;
+    border-radius: 50%;
+    margin: 0 20px;
+    animation: ball 4s infinite;
+}
